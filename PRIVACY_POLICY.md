@@ -1,6 +1,6 @@
-# Privacy Policy --- Anas Yahuza
+# Privacy Policy — Anas Yahuza
 
-**Effective date:** September 11, 2026\
+**Effective date:** September 11, 2026
 **Last updated:** September 11, 2026
 
 ## Introduction
@@ -18,15 +18,13 @@ to create an account to use the app.
 ### Location
 
 Anas Yahuza may request access to your device's approximate or precise
-location for location-dependent Islamic features.
+location for location-dependent Islamic features (Qibla direction,
+distance to Makkah, and the Qibla map).
 
-Location permission is requested only when required for these features.
-The app does not send your location to a developer-owned server or
-maintain a developer database containing your location.
-
-You can deny or revoke location permission through your Android device
-settings. Some location-dependent features may not work correctly
-without this permission.
+Location is processed in memory on your device for these features and
+is never stored on a developer-owned server. The app works if you deny
+location permission; only Qibla-related features are affected. You can
+deny or revoke location permission at any time through Android settings.
 
 ### Notifications
 
@@ -41,70 +39,68 @@ The app may use exact alarms, foreground services, wake locks, and
 restart-related functionality so scheduled reminders, notifications,
 downloads, and audio playback can continue to work as intended.
 
-### Internet Access
+### Internet Access and Third-Party Services
 
-The app has internet permission and includes networking functionality.
-Internet access may be used when a feature needs to retrieve online
-content or communicate with an external resource.
+The app uses HTTPS for all network connections. Anas Yahuza has no
+developer-owned backend server or user database. Features that need
+online content communicate directly with these third parties, each with
+its own privacy practices:
 
-Anas Yahuza does not use a developer-owned backend server or
-developer-operated user database.
+- **OpenStreetMap tile server (`tile.openstreetmap.org`)** — Qibla map
+  tiles are fetched centered on your position, so tile coordinates and
+  your IP address are transmitted to OSM. Purpose: app functionality.
+- **`api.aladhan.com`** — prayer times, requested with fixed default
+  coordinates (not your live location) plus date and calculation method.
+- **`api.alquran.cloud`** — Quran verse translations, requested by
+  surah/ayah number only.
 
 ### Audio and Media
 
 The app provides Quran/Islamic audio functionality and may play audio in
-the background. Media playback services may continue operating while the
-app is not visible so that audio can play correctly.
-
-The Android manifest supplied for this policy does not request
-microphone permission.
+the background. The app does not request microphone permission and does
+not access your personal audio files, photos, contacts, or messages.
 
 ### Local App Data
 
-The app may store preferences, settings, downloaded content, and other
-information required for app functionality locally on your device.
+The app stores preferences, settings, bookmarks, downloaded content, and
+other information required for app functionality locally on your device
+only.
 
 ## Accounts
 
 Anas Yahuza does not require users to create an account or sign in to
-use the app.
+use the app. There is no login, inside or outside the app.
 
-## Advertising
+## Advertising and Analytics
 
-Anas Yahuza does not include advertising based on the project
-configuration provided for this policy.
+Anas Yahuza includes no advertising SDKs and no analytics or crash-
+reporting SDKs.
 
 ## Children's Privacy
 
-Anas Yahuza is an Islamic utility and educational application. We do not
-knowingly operate a developer-owned system for collecting personal
-information from children.
-
-Parents and guardians should supervise children's use of device
-permissions and online features where appropriate.
+Anas Yahuza is committed to follow the Google Play Families Policy.
+Location is optional and permission-gated, which keeps the app usable
+for all age groups when permission is denied. Parents and guardians
+should supervise children's use of device permissions and online
+features where appropriate.
 
 ## Data Security
 
-Because Anas Yahuza does not operate a developer-owned backend server or
-account database, the app does not maintain a central developer database
-of user accounts or personal information. Information stored locally is
-also subject to the security of the user's device and Android operating
-system.
+All data transmitted by the app uses encrypted HTTPS connections.
+Because there is no developer-owned backend or account database, there
+is no central developer store of user accounts or personal information.
+Information stored locally is also subject to the security of your
+device and the Android operating system.
 
-## Third-Party Services
+## Data Deletion — Your Choices
 
-Some app features or Flutter packages may interact with operating-system
-services or external online resources. Those external services may have
-their own privacy practices. This policy does not claim that all network
-traffic remains on the device; rather, Anas Yahuza does not send user
-information to a backend server operated by the app developer.
-
-## Your Choices
-
-You can control permissions such as location and notifications through
-Android settings. You may also uninstall Anas Yahuza at any time to
-remove the application and its locally stored app data, subject to
-Android's normal storage and backup behavior.
+You control permissions such as location and notifications through
+Android settings. To delete all app data, use **Settings → Clear All
+Data** inside the app, or uninstall Anas Yahuza. This removes settings,
+bookmarks, cache, and downloaded content from your device, subject to
+Android's normal storage and backup behavior. Location data is held only
+in memory while the Qibla feature runs and is not retained on any
+developer server.
 
 ## Changes to This Privacy Policy
 
@@ -118,7 +114,7 @@ If you have questions about this Privacy Policy or Anas Yahuza's privacy
 practices, please contact the developer through the contact information
 shown on the app's official Google Play Store listing.
 
-------------------------------------------------------------------------
+---
 
-**App:** Anas Yahuza\
+**App:** Anas Yahuza
 **Package name:** `com.anasyahuza.islamiccompanion`
