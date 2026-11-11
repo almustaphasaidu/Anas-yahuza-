@@ -1,120 +1,80 @@
-# Privacy Policy — Anas Yahuza
+# Privacy policy — Anas Yahuza Islamic Companion
 
-**Effective date:** September 11, 2026
-**Last updated:** September 11, 2026
+Updated 11 November 2026. Package: `com.anasyahuza.islamiccompanion`.
 
-## Introduction
+## Local data and accounts
 
-Anas Yahuza is an Islamic companion application designed to provide
-Quran reading, Islamic audio, duas, ruqyah, prayer-related features,
-notifications, and other Islamic utilities.
+No account is required. Settings, bookmarks, notes, reading progress,
+collections, downloaded content and pending feedback are stored locally on
+your device. We do not sell your personal data.
 
-We respect your privacy. Anas Yahuza does **not operate a user account
-system or developer-owned backend server**, and we do not require users
-to create an account to use the app.
+## Location and permissions
 
-## Information and Permissions Used
+Prayer and Qibla request foreground location access when you open those
+features. Their location-dependent content is hidden until access is granted.
+No background location permission is requested. Other offline content remains
+usable without location. Change permissions in Android Settings.
 
-### Location
+Notification permission and alarm access support optional prayer and reminder
+notifications. Foreground media services support audio and downloads. The app
+does not request microphone, contacts or personal photo access.
 
-Anas Yahuza may request access to your device's approximate or precise
-location for location-dependent Islamic features (Qibla direction,
-distance to Makkah, and the Qibla map).
+## External services
 
-Location is processed in memory on your device for these features and
-is never stored on a developer-owned server. The app works if you deny
-location permission; only Qibla-related features are affected. You can
-deny or revoke location permission at any time through Android settings.
+- Aladhan: prayer cross-checks and date metadata; requests can include prayer
+  coordinates and your IP address.
+- OpenStreetMap: Qibla map tiles; tile coordinates and your IP are transmitted.
+- alquran.cloud: optional translations and tafsir by verse number.
+- archive.org: optional dua and ruqyah audio streams and downloads.
+- FormSubmit: feedback messages, optional reply email and submission time are
+  sent over HTTPS to the developer's feedback inbox. Offline messages remain
+  queued until delivery. Reopen the app to retry after termination.
+- Google Play: update availability and delivery for Play-installed versions.
 
-### Notifications
+## Advertising
 
-The app may request permission to send notifications for Islamic
-reminders and other time-sensitive features.
+Selected navigation and information screens use Google AdMob. Quran readers
+and players, prayer, Qibla and worship tools remain ad-free. We request
+non-personalized ads and a maximum ad content rating of G. These settings do
+not eliminate all SDK data processing.
 
-You can disable notifications at any time through your device settings.
+Google AdMob may process IP addresses, device or advertising identifiers, ad
+interactions and diagnostic information to serve ads, prevent fraud and
+measure performance. IP addresses can indicate a general location. We do not
+supply Quran text, searches, notes, precise GPS coordinates or feedback to the
+advertising service. We have not added a separate analytics or crash-reporting
+service.
 
-### Alarms and Background Operation
+Where required, privacy choices are handled by Google's User Messaging
+Platform (UMP). Ads are requested only when UMP permits requests. When
+applicable, use Settings → Ad privacy choices to review your choices. Google
+may still process data for limited ads, security and fraud prevention under
+its policies.
 
-The app may use exact alarms, foreground services, wake locks, and
-restart-related functionality so scheduled reminders, notifications,
-downloads, and audio playback can continue to work as intended.
+- https://policies.google.com/privacy
+- https://policies.google.com/technologies/ads
 
-### Internet Access and Third-Party Services
+## Children and families
 
-The app uses HTTPS for all network connections. Anas Yahuza has no
-developer-owned backend server or user database. Features that need
-online content communicate directly with these third parties, each with
-its own privacy practices:
+Religious content is never conditional on viewing an ad. Parents can manage
+Android permissions and supervise children's use of online features. If you
+believe a child has sent personal information through Feedback, contact the
+developer to request removal of that message.
 
-- **OpenStreetMap tile server (`tile.openstreetmap.org`)** — Qibla map
-  tiles are fetched centered on your position, so tile coordinates and
-  your IP address are transmitted to OSM. Purpose: app functionality.
-- **`api.aladhan.com`** — prayer times, requested with fixed default
-  coordinates (not your live location) plus date and calculation method.
-- **`api.alquran.cloud`** — Quran verse translations, requested by
-  surah/ayah number only.
+## Deletion and choices
 
-### Audio and Media
+Use Settings → Clear All Data or uninstall the app to remove local data,
+subject to Android storage and backup behavior. Clearing local app data cannot
+delete feedback already delivered to the developer or data processed by
+third-party services. For privacy requests, use the app's Feedback form or the
+developer contact on Google Play.
 
-The app provides Quran/Islamic audio functionality and may play audio in
-the background. The app does not request microphone permission and does
-not access your personal audio files, photos, contacts, or messages.
+## Changes and contact
 
-### Local App Data
+Updates to this policy will appear with a revised date. Contact the developer
+through Feedback in Settings or the developer contact on the Google Play
+listing.
 
-The app stores preferences, settings, bookmarks, downloaded content, and
-other information required for app functionality locally on your device
-only.
+Official website: https://almustaphasaidu.github.io/
 
-## Accounts
-
-Anas Yahuza does not require users to create an account or sign in to
-use the app. There is no login, inside or outside the app.
-
-## Advertising and Analytics
-
-Anas Yahuza includes no advertising SDKs and no analytics or crash-
-reporting SDKs.
-
-## Children's Privacy
-
-Anas Yahuza is committed to follow the Google Play Families Policy.
-Location is optional and permission-gated, which keeps the app usable
-for all age groups when permission is denied. Parents and guardians
-should supervise children's use of device permissions and online
-features where appropriate.
-
-## Data Security
-
-All data transmitted by the app uses encrypted HTTPS connections.
-Because there is no developer-owned backend or account database, there
-is no central developer store of user accounts or personal information.
-Information stored locally is also subject to the security of your
-device and the Android operating system.
-
-## Data Deletion — Your Choices
-
-You control permissions such as location and notifications through
-Android settings. To delete all app data, use **Settings → Clear All
-Data** inside the app, or uninstall Anas Yahuza. This removes settings,
-bookmarks, cache, and downloaded content from your device, subject to
-Android's normal storage and backup behavior. Location data is held only
-in memory while the Qibla feature runs and is not retained on any
-developer server.
-
-## Changes to This Privacy Policy
-
-This Privacy Policy may be updated when the app's features, permissions,
-or data practices change. The updated version will be published on the
-official privacy-policy page with a revised "Last updated" date.
-
-## Contact
-
-If you have questions about this Privacy Policy or Anas Yahuza's privacy
-practices, please contact the developer through the contact information
-shown on the app's official Google Play Store listing.
-
----
-
-**App:** Anas Yahuza
-**Package name:** `com.anasyahuza.islamiccompanion`
+Privacy page: https://almustaphasaidu.github.io/privacy.html
